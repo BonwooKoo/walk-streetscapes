@@ -46,13 +46,12 @@ body {
   font-weight: 800;
 }
 
-#dropdown_label {
-  position: relative;
-  color: white;
-}
-
-#dropdown {
-  position: relative;
-  top: 20px;
-  color: black;
+#method {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 80%;
+  height: 200px;
+  background-color: black;
+  opacity: 0.25;
 }

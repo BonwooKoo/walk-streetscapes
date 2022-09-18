@@ -36,12 +36,26 @@
     <div id="session">
       <div id="dropdown_label">Select a Variable</div>
       <div id="dropdown_container">
-        <select id="dropdown">
-          <option value="Plant">Plant</option>
-          <option value="Sidewlk">Sidewalk</option>
+        <select id="dropdown" class="select">
+          <option value="p.building">% Building</option>
+          <option value="p.sidewalk">% Sidewalk</option>
+          <option value="p.road">% Road</option>
+          <option value="p.house">% House</option>
+          <option value="p.car">% Car</option>
+          <option value="p.tree">% Tree</option>
+          <option value="p.grass">% Grass</option>
+          <option value="p.plant">% Plant</option>
+          <option value="p.sky">% Sky</option>
+          <option value="p.bench">% Bench</option>
+          <option value="b2s">Building-to-Street Ratio</option>
+          <option value="green">Greenness</option>
+          <option value="s2s">Sidewalk-to-Street Proportion</option>
         </select>
       </div>
     </div>
+
+    <!-- METHOD -->
+    <div id="method"></div>
 
     <script src="index.js"></script>
   </body>

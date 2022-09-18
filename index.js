@@ -8,7 +8,7 @@ const colors = [
   "#ff0000",
 ];
 
-let selected = "Plant";
+let selected = "p.building";
 
 let line_color = {
   property: selected,
@@ -57,7 +57,7 @@ var lines = new mapboxgl.Map({
 lines.on("load", () => {
   lines.addSource("pspnet_by_road", {
     type: "geojson",
-    data: "https://raw.githubusercontent.com/BonwooKoo/UrbanAnalytics2022/main/pspnet_by_road.geojson",
+    data: "https://raw.githubusercontent.com/BonwooKoo/walk-streetscapes/main/PSPNet_4git.geojson",
   });
 
   // LAYER
