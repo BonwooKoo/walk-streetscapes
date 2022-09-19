@@ -47,9 +47,9 @@ var_select.addEventListener("change", function () {
 // CREATE BASE MAP
 var lines = new mapboxgl.Map({
   container: "lines", // container element id
-  style: "mapbox://styles/mapbox/dark-v10",
+  style: "mapbox://styles/bonwookoo/cl882by71001a14p5o0doc6dc",
   center: [-84.42249441753262, 33.784321566409666], // initial map center in [lon, lat]
-  zoom: 10,
+  zoom: 11,
   minZoom: 3,
 });
 

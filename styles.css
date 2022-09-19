@@ -6,7 +6,7 @@
   width: 100%;
 }
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans";
   margin: 0;
 }
 body {
@@ -18,10 +18,21 @@ body {
 .titleMain {
   position: absolute;
   left: 30px;
-  top: 20px;
-  font-size: 36px;
-  font-weight: 800;
-  color: white;
+  top: 10px;
+  font-size: 50px;
+  font-weight: 600;
+  overflow: hidden;
+  color: #ffa07a;
+}
+
+#titleSub {
+  position: relative;
+  left: 30px;
+  top: 70px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #ffa07a;
+  opacity: 0.9;
 }
 
 #navbar {
@@ -29,29 +40,88 @@ body {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 90px;
+  height: 100px;
   background-color: black;
-  opacity: 0.25;
+  opacity: 0.7;
 }
 
-#session {
+#dropdown_div {
   position: absolute;
   left: 30px;
-  top: 200px;
+  top: 150px;
   width: 400px;
   height: 110px;
   color: rgb(0, 0, 0);
   border-radius: 10px;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 800;
 }
 
-#method {
+#dropdown_label {
+  color: white;
+}
+
+#method-container {
+  position: relative;
+  top: 250px;
+  left: 25px;
+  width: 300px;
+  height: 80%;
+  border-radius: 15px;
+}
+
+#method-background {
   position: absolute;
-  top: 50%;
+  top: 0px;
   left: 0px;
-  width: 80%;
-  height: 200px;
+  width: 300px;
+  height: 30%;
   background-color: black;
-  opacity: 0.25;
+  opacity: 0.5;
+  border-radius: 15px;
+  border-color: white;
+}
+
+#method-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 40%;
+  opacity: 1;
+}
+
+.method_title {
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  margin-right: 10%;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  opacity: 1;
+}
+
+.method_body {
+  position: absolute;
+  top: 50px;
+  left: 5%;
+  margin-right: 10%;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+  opacity: 1;
+}
+
+select {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+  top: 10px;
+  width: 290px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: thin;
 }
